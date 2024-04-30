@@ -1,139 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-html, body{
-    height: 100%;
-    width: 100%;
-    font-family: "Roboto", sans-serif;
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-.text-center{
-    text-align: center;
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0e3eb;
 }
-.bg-red{
-    background: red;
+.container {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px 20px 20px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 }
-.mx-auto{
-    margin: auto;
+.display {
+  height: 80px;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #000e1a;
+  pointer-events: none;
 }
-.m-w-20{
-    max-width: 30vw;
+.buttons {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
 }
-.flex {
-display: flex;
+.buttons button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #eee;
 }
-.flex-col{
-flex-direction: column;
+.buttons button:active {
+  transform: scale(0.99);
 }
-.items-center{
-    align-items: center;
-}
-.button{
-    font-weight: 100;
-    background-color: lightblue;
-    color: red;
-    width: 66px;
-    padding: 20px;
-    margin: 0 3px;
-    border: 2px solid black;
-    border-radius: 9px;
-    cursor: pointer;
-}
-.row{
-    margin: 8px 0;
-}
-.row input{
-    width: 291px;
-    font-size: 20px;
-    margin: 0;
-    padding: 10px 0;
-    border: 2px solid black;
-    border-radius: 5px;
-}
-@media(max-width:1200px){
-    .html{
-        font-size: 90%;
-    }
-    .button{
-        font-size: 90%;
-    }
-}
-@media(max-width:991px){
-    .button{
-        width: 65px;
-    }
-}
-@media(max-width:768px){
-    .row input{
-        width: 238px;
-    }
-    .button{
-        width: 48px;
-    }
-}
-@media(max-width:617px){
-    .row input{
-        width: 195px;
-    }.button{
-        width: 37px;
-        padding: 13px;
-    }
-}
-@media(max-width:600px){
-    .row input{
-        width: 195px;
-    }.button{
-        width: 27px;
-        text-align: center;
-        padding: 12px;
-    }
-}
-@media(max-width:450px){
-    .text-center{
-        font-size:25px ;
-    }
-    .row input{
-        width: 140px;
-    }
-    .button{
-        width: 23px;
-        padding: 10px;
-        text-align: center;
-        justify-content: center;
-    }
-}
-@media(max-width:412px){
-    .row input{
-        width: 130px;
-    }
-    .button{
-        width: 19px;
-        padding: 8px;
-    }
-}
-@media(max-width:390px){
-    .text-center{
-        font-size:24px ;
-    }
-    .row{
-        text-align: center;
-        justify-content: center;
-    }
-    .row input{
-        width: 120px;
-    }
-    .button{
-        width: 19px;
-        padding: 8px;
-    }
-}
-@media(max-width:350px){
-    .row{
-        text-align: center;
-        justify-content: center;
-    }
-    .row input{
-        width: 110px;
-    }
-    .button{
-        width: 16px;
-        padding: 6px;
-    }
+.operator {
+  color: #2f9fff;
 }
