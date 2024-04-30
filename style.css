@@ -69,12 +69,6 @@ flex-direction: column;
     }
 }
 @media(max-width:617px){
-    .html{
-        font-size: 50%;
-    }
-    .body{
-      font-size: 20px;
-    }
     .row input{
         width: 195px;
     }.button{
