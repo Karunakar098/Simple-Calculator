@@ -105,7 +105,7 @@ flex-direction: column;
         justify-content: center;
     }
     .row input{
-        width: 120px;
+        width: 100px;
     }
     .button{
         width: 18px;
