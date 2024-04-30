@@ -96,6 +96,15 @@ flex-direction: column;
         justify-content: center;
     }
 }
+@media(max-width:412px){
+    .row input{
+        width: 130px;
+    }
+    .button{
+        width: 19px;
+        padding: 8px;
+    }
+}
 @media(max-width:390px){
     .text-center{
         font-size:24px ;
@@ -105,10 +114,23 @@ flex-direction: column;
         justify-content: center;
     }
     .row input{
-        width: 100px;
+        width: 120px;
     }
     .button{
-        width: 18px;
+        width: 19px;
         padding: 8px;
+    }
+}
+@media(max-width:350px){
+    .row{
+        text-align: center;
+        justify-content: center;
+    }
+    .row input{
+        width: 110px;
+    }
+    .button{
+        width: 16px;
+        padding: 6px;
     }
 }
