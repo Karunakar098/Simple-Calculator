@@ -80,7 +80,8 @@ flex-direction: column;
     .row input{
         width: 195px;
     }.button{
-        width: 32.5px;
+        width: 27px;
+        text-align: center;
         padding: 12px;
     }
 }
