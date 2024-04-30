@@ -82,6 +82,20 @@ flex-direction: column;
         padding: 13px;
     }
 }
+@media(max-width:617px){
+    .html{
+        font-size: 50%;
+    }
+    .body{
+      font-size: 20px;
+    }
+    .row input{
+        width: 195px;
+    }.button{
+        width: 37px;
+        padding: 13px;
+    }
+}
 @media(max-width:450px){
     .text-center{
         font-size:25px ;
